@@ -21,7 +21,7 @@ use App\Http\Controllers\OthersController;
 |
 */
 
-Route::get("/",[HomeController::class,"index"])->name('index');
+Route::get("/index",[HomeController::class,"index"])->name('index');
 Route::get("/index2",[HomeController::class,"index2"])->name('index2');
 Route::get("/app_emailbox",[HomeController::class,"app_emailbox"])->name('app_emailbox');
 Route::get("/app_chat_box",[HomeController::class,"app_chat_box"])->name('app_chat_box');
@@ -30,7 +30,6 @@ Route::get("/app_contact_list",[HomeController::class,"app_contact_list"])->name
 Route::get("/app_to_do",[HomeController::class,"app_to_do"])->name('app_to_do');
 Route::get("/app_invoice",[HomeController::class,"app_invoice"])->name('app_invoice');
 Route::get("/app_fullcalender",[HomeController::class,"app_fullcalender"])->name('app_fullcalender');
-Route::get("/app_emailbox",[HomeController::class,"app_emailbox"])->name('app_emailbox');
 
 Route::get("/ecommerce_products",[EcomController::class,"ecommerce_products"])->name('ecommerce_products');
 Route::get("/ecommerce_products_details",[EcomController::class,"ecommerce_products_details"])->name('ecommerce_products_details');
@@ -75,7 +74,7 @@ Route::get("/form_select2",[FormTableController::class,"form_select2"])->name('f
 Route::get("/table_basic_table",[FormTableController::class,"table_basic_table"])->name('table_basic_table');
 Route::get("/table_datatable",[FormTableController::class,"table_datatable"])->name('table_datatable');
 
-Route::get("/authentication_signin",[PagesController::class,"authentication_signin"])->name('authentication_signin');
+Route::get("/",[PagesController::class,"authentication_signin"])->name('authentication_signin');
 Route::get("/authentication_signup",[PagesController::class,"authentication_signup"])->name('authentication_signup');
 Route::get("/authentication_signin_with_header_footer",[PagesController::class,"authentication_signin_with_header_footer"])->name('authentication_signin_with_header_footer');
 Route::get("/authentication_signup_with_header_footer",[PagesController::class,"authentication_signup_with_header_footer"])->name('authentication_signup_with_header_footer');

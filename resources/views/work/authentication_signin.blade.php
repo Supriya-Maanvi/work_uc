@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--favicon-->
-	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+	<link rel="icon" href="{{asset('uipro-final-logo.png')}}" type="image/png" />
 	<!--plugins-->
 	<link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
 	<link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
@@ -18,7 +18,7 @@
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/app.css" rel="stylesheet">
 	<link href="assets/css/icons.css" rel="stylesheet">
-	<title>Dashkote - Bootstrap5 Admin Template</title>
+	<title>UIPRO - Bootstrap5 Admin Template</title>
 </head>
 
 <body class="bg-login">
@@ -29,7 +29,7 @@
 				<div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
 					<div class="col mx-auto">
 						<div class="mb-4 text-center">
-							<img src="assets/images/logo-img.png" width="180" alt="" />
+							<img src="{{asset('uipro-final-logo.png')}}" width="180" alt="" />
 						</div>
 						<div class="card">
 							<div class="card-body">
@@ -39,14 +39,8 @@
 										<p>Don't have an account yet? <a href="authentication-signup.html">Sign up here</a>
 										</p>
 									</div>
-									<div class="d-grid">
-										<a class="btn my-4 shadow-sm btn-white" href="javascript:;"> <span class="d-flex justify-content-center align-items-center">
-                          <img class="me-2" src="assets/images/icons/search.svg" width="16" alt="Image Description">
-                          <span>Sign in with Google</span>
-											</span>
-										</a> <a href="javascript:;" class="btn btn-facebook"><i class="bx bxl-facebook"></i>Sign in with Facebook</a>
-									</div>
-									<div class="login-separater text-center mb-4"> <span>OR SIGN IN WITH EMAIL</span>
+									
+									<div class="login-separater text-center mb-4"> 
 										<hr/>
 									</div>
 									<div class="form-body">

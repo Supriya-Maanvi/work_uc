@@ -3,11 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Models\Pages;
 class PagesController extends Controller
 {
     //
     public function authentication_signin(Request $req){
+        if(User::Where('user_id',Auth::id())->exists()){
+            return redirect()->route('work.index');
+        }
         return view("work.authentication_signin");
     }
     public function authentication_signup(Request $req){
