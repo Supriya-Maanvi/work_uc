@@ -33,5 +33,8 @@ class HomeController extends Controller
     public function app_fullcalender(Request $req){
         return view("work.app_fullcalender");
     }
+    public function app_emailbox(Request $req){
+        return view("work.app_emailbox");
+    }
     
 }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="semi-dark">
+<html lang="en" class="light">
 
 <head>
 	<!-- Required meta tags -->
@@ -128,23 +128,23 @@
 						</li>
 						<li> <a href="{{route('component_media_object')}}"><i class="bx bx-right-arrow-alt"></i>Media Objects</a>
 						</li>
-						<li> <a href="component-modals.html"><i class="bx bx-right-arrow-alt"></i>Modals</a>
+						<li> <a href="{{route('component_modals')}}"><i class="bx bx-right-arrow-alt"></i>Modals</a>
 						</li>
-						<li> <a href="component-navs-tabs.html"><i class="bx bx-right-arrow-alt"></i>Navs & Tabs</a>
+						<li> <a href="{{route('component_navs_tabs')}}"><i class="bx bx-right-arrow-alt"></i>Navs & Tabs</a>
 						</li>
-						<li> <a href="component-navbar.html"><i class="bx bx-right-arrow-alt"></i>Navbar</a>
+						<li> <a href="{{route('component_navbar')}}"><i class="bx bx-right-arrow-alt"></i>Navbar</a>
 						</li>
-						<li> <a href="component-paginations.html"><i class="bx bx-right-arrow-alt"></i>Pagination</a>
+						<li> <a href="{{route('component_paginations')}}"><i class="bx bx-right-arrow-alt"></i>Pagination</a>
 						</li>
-						<li> <a href="component-popovers-tooltips.html"><i class="bx bx-right-arrow-alt"></i>Popovers & Tooltips</a>
+						<li> <a href="{{route('component_popovers_tooltips')}}"><i class="bx bx-right-arrow-alt"></i>Popovers & Tooltips</a>
 						</li>
-						<li> <a href="component-progress-bars.html"><i class="bx bx-right-arrow-alt"></i>Progress</a>
+						<li> <a href="{{route('component_progress_bars')}}"><i class="bx bx-right-arrow-alt"></i>Progress</a>
 						</li>
-						<li> <a href="component-spinners.html"><i class="bx bx-right-arrow-alt"></i>Spinners</a>
+						<li> <a href="{{route('component_spinners')}}"><i class="bx bx-right-arrow-alt"></i>Spinners</a>
 						</li>
-						<li> <a href="component-notifications.html"><i class="bx bx-right-arrow-alt"></i>Notifications</a>
+						<li> <a href="{{route('component_notifications')}}"><i class="bx bx-right-arrow-alt"></i>Notifications</a>
 						</li>
-						<li> <a href="component-avtars-chips.html"><i class="bx bx-right-arrow-alt"></i>Avatrs & Chips</a>
+						<li> <a href="{{route('component_avtars_chips')}}"><i class="bx bx-right-arrow-alt"></i>Avatrs & Chips</a>
 						</li>
 					</ul>
 				</li>
@@ -155,11 +155,11 @@
 						<div class="menu-title">Content</div>
 					</a>
 					<ul>
-						<li> <a href="content-grid-system.html"><i class="bx bx-right-arrow-alt"></i>Grid System</a>
+						<li> <a href="{{route('content_grid_system')}}"><i class="bx bx-right-arrow-alt"></i>Grid System</a>
 						</li>
-						<li> <a href="content-typography.html"><i class="bx bx-right-arrow-alt"></i>Typography</a>
+						<li> <a href="{{route('content_typography')}}"><i class="bx bx-right-arrow-alt"></i>Typography</a>
 						</li>
-						<li> <a href="content-text-utilities.html"><i class="bx bx-right-arrow-alt"></i>Text Utilities</a>
+						<li> <a href="{{route('content_text_utilities')}}"><i class="bx bx-right-arrow-alt"></i>Text Utilities</a>
 						</li>
 					</ul>
 				</li>
@@ -170,11 +170,11 @@
 						<div class="menu-title">Icons</div>
 					</a>
 					<ul>
-						<li> <a href="icons-line-icons.html"><i class="bx bx-right-arrow-alt"></i>Line Icons</a>
+						<li> <a href="{{route('icons_line_icons')}}"><i class="bx bx-right-arrow-alt"></i>Line Icons</a>
 						</li>
-						<li> <a href="icons-boxicons.html"><i class="bx bx-right-arrow-alt"></i>Boxicons</a>
+						<li> <a href="{{route('icons_boxicons')}}"><i class="bx bx-right-arrow-alt"></i>Boxicons</a>
 						</li>
-						<li> <a href="icons-feather-icons.html"><i class="bx bx-right-arrow-alt"></i>Feather Icons</a>
+						<li> <a href="{{route('icons_feather_icons')}}"><i class="bx bx-right-arrow-alt"></i>Feather Icons</a>
 						</li>
 					</ul>
 				</li>
@@ -186,23 +186,23 @@
 						<div class="menu-title">Forms</div>
 					</a>
 					<ul>
-						<li> <a href="form-elements.html"><i class="bx bx-right-arrow-alt"></i>Form Elements</a>
+						<li> <a href="{{route('form_elements')}}"><i class="bx bx-right-arrow-alt"></i>Form Elements</a>
 						</li>
-						<li> <a href="form-input-group.html"><i class="bx bx-right-arrow-alt"></i>Input Groups</a>
+						<li> <a href="{{route('form_input_group')}}"><i class="bx bx-right-arrow-alt"></i>Input Groups</a>
 						</li>
-						<li> <a href="form-layouts.html"><i class="bx bx-right-arrow-alt"></i>Forms Layouts</a>
+						<li> <a href="{{route('form_layouts')}}"><i class="bx bx-right-arrow-alt"></i>Forms Layouts</a>
 						</li>
-						<li> <a href="form-validations.html"><i class="bx bx-right-arrow-alt"></i>Form Validation</a>
+						<li> <a href="{{route('form_validations')}}"><i class="bx bx-right-arrow-alt"></i>Form Validation</a>
 						</li>
-						<li> <a href="form-wizard.html"><i class="bx bx-right-arrow-alt"></i>Form Wizard</a>
+						<li> <a href="{{route('form_wizard')}}"><i class="bx bx-right-arrow-alt"></i>Form Wizard</a>
 						</li>
-						<li> <a href="form-text-editor.html"><i class="bx bx-right-arrow-alt"></i>Text Editor</a>
+						<li> <a href="{{route('form_text_editor')}}"><i class="bx bx-right-arrow-alt"></i>Text Editor</a>
 						</li>
-						<li> <a href="form-file-upload.html"><i class="bx bx-right-arrow-alt"></i>File Upload</a>
+						<li> <a href="{{route('form_file_upload')}}"><i class="bx bx-right-arrow-alt"></i>File Upload</a>
 						</li>
-						<li> <a href="form-date-time-pickes.html"><i class="bx bx-right-arrow-alt"></i>Date Pickers</a>
+						<li> <a href="{{route('form_date_time_pickes')}}"><i class="bx bx-right-arrow-alt"></i>Date Pickers</a>
 						</li>
-						<li> <a href="form-select2.html"><i class="bx bx-right-arrow-alt"></i>Select2</a>
+						<li> <a href="{{route('form_select2')}}"><i class="bx bx-right-arrow-alt"></i>Select2</a>
 						</li>
 					</ul>
 				</li>
@@ -213,9 +213,9 @@
 						<div class="menu-title">Tables</div>
 					</a>
 					<ul>
-						<li> <a href="table-basic-table.html"><i class="bx bx-right-arrow-alt"></i>Basic Table</a>
+						<li> <a href="{{route('table_basic_table')}}"><i class="bx bx-right-arrow-alt"></i>Basic Table</a>
 						</li>
-						<li> <a href="table-datatable.html"><i class="bx bx-right-arrow-alt"></i>Data Table</a>
+						<li> <a href="{{route('table_datatable')}}"><i class="bx bx-right-arrow-alt"></i>Data Table</a>
 						</li>
 					</ul>
 				</li>
@@ -227,31 +227,31 @@
 						<div class="menu-title">Authentication</div>
 					</a>
 					<ul>
-						<li> <a href="authentication-signin.html" target="_blank"><i class="bx bx-right-arrow-alt"></i>Sign In</a>
+						<li> <a href="{{route('authentication_signin')}}" target="_blank"><i class="bx bx-right-arrow-alt"></i>Sign In</a>
 						</li>
-						<li> <a href="authentication-signup.html" target="_blank"><i class="bx bx-right-arrow-alt"></i>Sign Up</a>
+						<li> <a href="{{route('authentication_signup')}}" target="_blank"><i class="bx bx-right-arrow-alt"></i>Sign Up</a>
 						</li>
-						<li> <a href="authentication-signin-with-header-footer.html" target="_blank"><i class="bx bx-right-arrow-alt"></i>Sign In with Header & Footer</a>
+						<li> <a href="{{route('authentication_signin_with_header_footer')}}" target="_blank"><i class="bx bx-right-arrow-alt"></i>Sign In with Header & Footer</a>
 						</li>
-						<li> <a href="authentication-signup-with-header-footer.html" target="_blank"><i class="bx bx-right-arrow-alt"></i>Sign Up with Header & Footer</a>
+						<li> <a href="{{route('authentication_signup_with_header_footer')}}" target="_blank"><i class="bx bx-right-arrow-alt"></i>Sign Up with Header & Footer</a>
 						</li>
-						<li> <a href="authentication-forgot-password.html" target="_blank"><i class="bx bx-right-arrow-alt"></i>Forgot Password</a>
+						<li> <a href="{{route('authentication_forgot_password')}}" target="_blank"><i class="bx bx-right-arrow-alt"></i>Forgot Password</a>
 						</li>
-						<li> <a href="authentication-reset-password.html" target="_blank"><i class="bx bx-right-arrow-alt"></i>Reset Password</a>
+						<li> <a href="{{route('authentication_reset_password')}}" target="_blank"><i class="bx bx-right-arrow-alt"></i>Reset Password</a>
 						</li>
-						<li> <a href="authentication-lock-screen.html" target="_blank"><i class="bx bx-right-arrow-alt"></i>Lock Screen</a>
+						<li> <a href="{{route('authentication_lock_screen')}}" target="_blank"><i class="bx bx-right-arrow-alt"></i>Lock Screen</a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="user-profile.html">
+					<a href="{{route('user_profile')}}">
 						<div class="parent-icon"><i class="bx bx-user-circle"></i>
 						</div>
 						<div class="menu-title">User Profile</div>
 					</a>
 				</li>
 				<li>
-					<a href="timeline.html">
+					<a href="{{route('timeline')}}">
 						<div class="parent-icon"> <i class="bx bx-video-recording"></i>
 						</div>
 						<div class="menu-title">Timeline</div>
@@ -264,25 +264,25 @@
 						<div class="menu-title">Errors</div>
 					</a>
 					<ul>
-						<li> <a href="errors-404-error.html" target="_blank"><i class="bx bx-right-arrow-alt"></i>404 Error</a>
+						<li> <a href="{{route('errors_404_error')}}" target="_blank"><i class="bx bx-right-arrow-alt"></i>404 Error</a>
 						</li>
-						<li> <a href="errors-500-error.html" target="_blank"><i class="bx bx-right-arrow-alt"></i>500 Error</a>
+						<li> <a href="{{route('errors_500_error')}}" target="_blank"><i class="bx bx-right-arrow-alt"></i>500 Error</a>
 						</li>
-						<li> <a href="errors-coming-soon.html" target="_blank"><i class="bx bx-right-arrow-alt"></i>Coming Soon</a>
+						<li> <a href="{{route('errors_coming_soon')}}" target="_blank"><i class="bx bx-right-arrow-alt"></i>Coming Soon</a>
 						</li>
-						<li> <a href="error-blank-page.html" target="_blank"><i class="bx bx-right-arrow-alt"></i>Blank Page</a>
+						<li> <a href="{{route('error_blank_page')}}" target="_blank"><i class="bx bx-right-arrow-alt"></i>Blank Page</a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="faq.html">
+					<a href="{{route('faq')}}">
 						<div class="parent-icon"><i class="bx bx-help-circle"></i>
 						</div>
 						<div class="menu-title">FAQ</div>
 					</a>
 				</li>
 				<li>
-					<a href="pricing-table.html">
+					<a href="{{route('pricing_table')}}">
 						<div class="parent-icon"><i class="bx bx-diamond"></i>
 						</div>
 						<div class="menu-title">Pricing</div>
@@ -296,11 +296,11 @@
 						<div class="menu-title">Charts</div>
 					</a>
 					<ul>
-						<li> <a href="charts-apex-chart.html"><i class="bx bx-right-arrow-alt"></i>Apex</a>
+						<li> <a href="{{route('charts_apex_chart')}}"><i class="bx bx-right-arrow-alt"></i>Apex</a>
 						</li>
-						<li> <a href="charts-chartjs.html"><i class="bx bx-right-arrow-alt"></i>Chartjs</a>
+						<li> <a href="{{route('charts_chartjs')}}"><i class="bx bx-right-arrow-alt"></i>Chartjs</a>
 						</li>
-						<li> <a href="charts-highcharts.html"><i class="bx bx-right-arrow-alt"></i>Highcharts</a>
+						<li> <a href="{{route('charts_highcharts')}}"><i class="bx bx-right-arrow-alt"></i>Highcharts</a>
 						</li>
 					</ul>
 				</li>
@@ -311,9 +311,9 @@
 						<div class="menu-title">Maps</div>
 					</a>
 					<ul>
-						<li> <a href="map-google-maps.html"><i class="bx bx-right-arrow-alt"></i>Google Maps</a>
+						<li> <a href="{{route('map_google_maps')}}"><i class="bx bx-right-arrow-alt"></i>Google Maps</a>
 						</li>
-						<li> <a href="map-vector-maps.html"><i class="bx bx-right-arrow-alt"></i>Vector Maps</a>
+						<li> <a href="{{route('map_vector_maps')}}"><i class="bx bx-right-arrow-alt"></i>Vector Maps</a>
 						</li>
 					</ul>
 				</li>
@@ -364,16 +364,16 @@
 					<div class="top-menu-left d-none d-lg-block">
 						<ul class="nav">
 						  <li class="nav-item">
-							<a class="nav-link" href="app-emailbox.html"><i class='bx bx-envelope'></i></a>
+							<a class="nav-link" href="{{route('app_emailbox')}}"><i class='bx bx-envelope'></i></a>
 						  </li>
 						  <li class="nav-item">
-							<a class="nav-link" href="app-chat-box.html"><i class='bx bx-message'></i></a>
+							<a class="nav-link" href="{{route('app_chat_box')}}"><i class='bx bx-message'></i></a>
 						  </li>
 						  <li class="nav-item">
-							<a class="nav-link" href="app-fullcalender.html"><i class='bx bx-calendar'></i></a>
+							<a class="nav-link" href="{{route('app_fullcalender')}}"><i class='bx bx-calendar'></i></a>
 						  </li>
 						  <li class="nav-item">
-							  <a class="nav-link" href="app-to-do.html"><i class='bx bx-check-square'></i></a>
+							  <a class="nav-link" href="{{route('app_to-do')}}"><i class='bx bx-check-square'></i></a>
 						  </li>
 					  </ul>
 					 </div>
