@@ -4,12 +4,20 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Pages;
+use App\Models\User;
+Use Auth;
 class PagesController extends Controller
 {
     //
     public function authentication_signin(Request $req){
-        if(User::Where('user_id',Auth::id())->exists()){
-            return redirect()->route('work.index');
+        /*if (Auth::attempt(array('name' => $request->name, 'password' => $request->password))){
+            return redirect()->route('index');
+        }else{
+            return "Wrong Credentials";
+        }
+        die;*/
+        if(User::Where([['id',Auth::id()],['isAdmin',FALSE]])->exists()){
+              return redirect()->route('index');
         }
         return view("work.authentication_signin");
     }

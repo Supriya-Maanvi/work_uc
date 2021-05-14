@@ -30,6 +30,7 @@ Route::get("/app_contact_list",[HomeController::class,"app_contact_list"])->name
 Route::get("/app_to_do",[HomeController::class,"app_to_do"])->name('app_to_do');
 Route::get("/app_invoice",[HomeController::class,"app_invoice"])->name('app_invoice');
 Route::get("/app_fullcalender",[HomeController::class,"app_fullcalender"])->name('app_fullcalender');
+Route::get("/widgets",[HomeController::class,"widgets"])->name('widgets');
 
 Route::get("/ecommerce_products",[EcomController::class,"ecommerce_products"])->name('ecommerce_products');
 Route::get("/ecommerce_products_details",[EcomController::class,"ecommerce_products_details"])->name('ecommerce_products_details');

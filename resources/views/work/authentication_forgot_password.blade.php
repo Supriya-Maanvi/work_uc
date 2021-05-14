@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--favicon-->
-	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+	<link rel="icon" href="{{asset('uipro-final-logo.png')}}" type="image/png" />
 	<!-- loader-->
 	<link href="assets/css/pace.min.css" rel="stylesheet" />
 	<script src="assets/js/pace.min.js"></script>
@@ -14,7 +14,7 @@
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/app.css" rel="stylesheet">
 	<link href="assets/css/icons.css" rel="stylesheet">
-	<title>Dashkote - Bootstrap5 Admin Template</title>
+	<title>UIPRO- Bootstrap5 Admin Template</title>
 </head>
 
 <body class="bg-forgot">
@@ -34,7 +34,7 @@
 							<input type="text" class="form-control form-control-lg" placeholder="example@user.com" />
 						</div>
 						<div class="d-grid gap-2">
-							<button type="button" class="btn btn-primary btn-lg">Send</button> <a href="authentication-signin.html" class="btn btn-light btn-lg"><i class='bx bx-arrow-back me-1'></i>Back to Login</a>
+							<button type="button" href="{{route('authentication_signin')}}" class="btn btn-primary btn-lg" >Send</button> <a href="{{route('authentication_signin')}}" class="btn btn-light btn-lg"><i class='bx bx-arrow-back me-1'></i>Back to Login</a>
 						</div>
 					</div>
 				</div>

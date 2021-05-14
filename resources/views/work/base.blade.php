@@ -82,7 +82,7 @@
 				</li>
 				<li class="menu-label">UI Elements</li>
 				<li>
-					<a href="widgets.html">
+					<a href={{route('widgets')}}>
 						<div class="parent-icon"><i class='bx bx-cookie'></i>
 						</div>
 						<div class="menu-title">Widgets</div>
@@ -718,7 +718,22 @@
 							<li>
 								<div class="dropdown-divider mb-0"></div>
 							</li>
-							<li><a class="dropdown-item" href="javascript:;"><i class='bx bx-log-out-circle'></i><span>Logout</span></a>
+							<li>
+							<div class="row">
+							<div class="col-1 ms-3">
+								<i class='bx bx-log-out-circle'></i>
+							</div>
+							<div class="col-9 ms-n5">	
+							<div class="row">
+								<div class="col ms-n5">
+									<form action="{{route('logout')}}" method="POST" class="d-inline">
+										@csrf
+										<input type="submit" class="dropdown-item" value="Logout">
+									</form>
+								</div>
+							</div>	
+							</div>	
+							</div>	
 							</li>
 						</ul>
 					</div>
